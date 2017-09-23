@@ -1,3 +1,8 @@
+投票系统
+==============
+前端界面使用weui，后台界面使用yui，适用于社团／班级投票选举
+
+
 ThinkPHP 5.0
 ===============
 
@@ -127,4 +132,3 @@ All rights reserved。
 ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
-# vote
