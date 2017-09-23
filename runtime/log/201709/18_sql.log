@@ -1,0 +1,899 @@
+[ 2017-09-18T16:21:51+08:00 ] ::1 ::1 POST /public/admin/position/index.html?position=%E7%BB%84%E7%BB%87%E5%A7%94%E5%91%98
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007840s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-09-18T16:22:31+08:00 ] ::1 ::1 POST /public/admin/position/index.html?position=%E7%BB%84%E7%BB%87%E5%A7%94%E5%91%98
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001028s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.014257s ]
+[ sql ] [ SQL ] INSERT INTO `position` (`position` , `update_time` , `create_time`) VALUES ('组织委员' , 1505722951 , 1505722951) [ RunTime:0.004464s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:24:24+08:00 ] ::1 ::1 POST /public/admin/position/index.html?position=%E7%BB%84%E7%BB%87%E5%A7%94%E5%91%98
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013118s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006177s ]
+[ sql ] [ SQL ] INSERT INTO `position` (`position` , `update_time` , `create_time`) VALUES ('组织委员' , 1505723064 , 1505723064) [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.003920s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.001005s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:24:43+08:00 ] ::1 ::1 POST /public/admin/position/index.html?position=%E7%BB%84%E7%BB%87%E5%A7%94%E5%91%98
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000981s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012956s ]
+[ sql ] [ SQL ] INSERT INTO `position` (`position` , `update_time` , `create_time`) VALUES ('组织委员' , 1505723083 , 1505723083) [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000970s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:24:47+08:00 ] ::1 ::1 GET /public/admin/position/index.html?position=%E7%BB%84%E7%BB%87%E5%A7%94%E5%91%98
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012430s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000560s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:24:48+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000382s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:24:56+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000702s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.014079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000687s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:27:40+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012856s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000738s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:28:43+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000954s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013293s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000530s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:29:23+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010096s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006525s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000505s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:30:09+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000705s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `position` LIMIT 0,15 [ RunTime:0.000568s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:31:12+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000926s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.005817s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000869s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:31:28+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013158s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000625s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:35:34+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012366s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000500s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:36:36+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002036s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.005882s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:36:58+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000662s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013723s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000843s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:50:19+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html?name=111&city=0&gender=%E7%94%B7&desc=111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000742s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.013410s ]
+[ sql ] [ SQL ] INSERT INTO `campaign` (`username` , `position` , `gender` , `desc` , `update_time` , `create_time`) VALUES ('111111' , 0 , '男' , '111111' , 1505724619 , 1505724619) [ RunTime:0.001153s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:02:05+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.005765s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000552s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:03:01+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004899s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002719s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000615s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:03:46+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012706s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.001112s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:03:48+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012185s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000634s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:05:43+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012730s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000614s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:06:01+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000751s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.011927s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000727s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:07:37+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004704s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006505s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000801s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:18:44+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000695s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013857s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000748s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:18:46+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003518s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000493s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:19:41+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.028450s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000617s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:20:04+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002599s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000567s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:20:42+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004329s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002831s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000718s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:21:24+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.004116s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000572s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:21:48+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000946s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000556s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:21:54+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002031s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000502s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:21:56+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000662s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002137s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000471s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:22:05+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.029581s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000893s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:22:59+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.005071s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000875s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:23:34+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.001888s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000680s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:27:40+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000859s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002399s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000536s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:28:02+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000914s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002847s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000590s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:28:05+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002400s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000497s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:29:17+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002011s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000402s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:31:00+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000791s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002505s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000658s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:32:54+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000759s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002031s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000546s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:33:16+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002690s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000503s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:33:29+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000737s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002387s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000565s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:34:01+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000883s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012944s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000955s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:34:17+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000903s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013028s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000608s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:35:07+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012618s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000611s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:35:47+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000776s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012073s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000466s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:36:14+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000919s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012986s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.001053s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:44:14+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003205s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000509s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:45:25+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000707s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.008962s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000633s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:47:44+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007639s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006909s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000808s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:49:12+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013385s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000676s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:49:27+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003371s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.007104s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000560s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:49:55+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012724s ]
+[ sql ] [ SQL ] INSERT INTO `campaign` (`username` , `position` , `gender` , `desc` , `update_time` , `create_time`) VALUES ('11111' , 1 , '男' , '11111' , 1505728195 , 1505728195) [ RunTime:0.006391s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:49:55+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012563s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000689s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:54:42+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000794s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012467s ]
+[ sql ] [ SQL ] INSERT INTO `campaign` (`username` , `position` , `gender` , `desc` , `update_time` , `create_time`) VALUES ('11111' , 1 , '男' , '11111' , 1505728482 , 1505728482) [ RunTime:0.003756s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:57:20+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000803s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.024998s ]
+[ sql ] [ SQL ] INSERT INTO `campaign` (`username` , `position` , `gender` , `desc` , `update_time` , `create_time`) VALUES ('11111' , 1 , '男' , '11111' , 1505728640 , 1505728640) [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT * FROM `campaign` [ RunTime:0.000804s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:57:20+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012680s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000733s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:58:14+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010847s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006536s ]
+[ sql ] [ SQL ] SELECT * FROM `campaign` [ RunTime:0.000750s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:58:14+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012421s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000571s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:58:14+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006385s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000693s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:58:16+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.014310s ]
+[ sql ] [ SQL ] SELECT * FROM `campaign` [ RunTime:0.000958s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:58:17+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000758s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012722s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000650s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:01:51+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011201s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006532s ]
+[ sql ] [ SQL ] SELECT * FROM `campaign` [ RunTime:0.000753s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:01:52+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009654s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006022s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000780s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:02:39+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.019224s ]
+[ sql ] [ SQL ] SELECT * FROM `campaign` [ RunTime:0.000821s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:04:06+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000837s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003069s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.007020s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:04:33+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000758s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.013594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000935s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:04:34+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000811s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.014307s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000863s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:05:00+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002533s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000894s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:05:01+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013468s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000671s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:05:03+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003010s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000845s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:05:03+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000805s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012985s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000711s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:05:29+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002426s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000776s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:07:03+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000720s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002545s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,position.id AS position__id,position.position AS position__position,position.update_time AS position__update_time,position.create_time AS position__create_time FROM `campaign` `campaign` INNER JOIN `position` `position` ON `campaign`.`position`=`position`.`id` [ RunTime:0.001099s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:07:23+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.004110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002382s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,position.id AS position__id,position.position AS position__position,position.update_time AS position__update_time,position.create_time AS position__create_time FROM `campaign` `campaign` INNER JOIN `position` `position` ON `campaign`.`position`=`position`.`id` [ RunTime:0.000697s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:07:43+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006648s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003386s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000785s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:09:40+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002278s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.010064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003473s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,position.id AS position__id,position.position AS position__position,position.update_time AS position__update_time,position.create_time AS position__create_time FROM `campaign` `campaign` INNER JOIN `position` `position` ON `campaign`.`position`=`position`.`id` [ RunTime:0.000850s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:18:49+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011002s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.007671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003719s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,position.id AS position__id,position.position AS position__position,position.update_time AS position__update_time,position.create_time AS position__create_time FROM `campaign` `campaign` INNER JOIN `position` `position` ON `campaign`.`position`=`position`.`id` [ RunTime:0.000766s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:18:55+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008555s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.005607s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,position.id AS position__id,position.position AS position__position,position.update_time AS position__update_time,position.create_time AS position__create_time FROM `campaign` `campaign` INNER JOIN `position` `position` ON `campaign`.`position`=`position`.`id` [ RunTime:0.000801s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:20:16+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005560s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.002820s ]
+[ sql ] [ SQL ] SELECT * FROM `campaign` [ RunTime:0.000568s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:21:08+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008362s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002944s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:21:21+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012824s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003551s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,position.id AS position__id,position.position AS position__position,position.update_time AS position__update_time,position.create_time AS position__create_time FROM `campaign` `campaign` INNER JOIN `position` `position` ON `campaign`.`position`=`position`.`id` [ RunTime:0.000785s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:21:40+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000726s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002587s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000899s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:21:58+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000676s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.013060s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002818s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000854s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:22:32+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000829s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002940s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.001130s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:22:33+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006814s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000508s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:23:24+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.016501s ]
+[ sql ] [ SQL ] INSERT INTO `campaign` (`username` , `position` , `gender` , `desc` , `update_time` , `create_time`) VALUES ('李久安' , 1 , '男' , '一小只' , 1505730204 , 1505730204) [ RunTime:0.005706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002047s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.001091s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:23:25+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000848s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013418s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000650s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:23:57+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008577s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006080s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000676s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:24:06+08:00 ] ::1 ::1 POST /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002157s ]
+[ sql ] [ SQL ] INSERT INTO `position` (`position` , `update_time` , `create_time`) VALUES ('宣传委员' , 1505730246 , 1505730246) [ RunTime:0.004999s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.001281s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:24:09+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021139s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003021s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.001010s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:24:09+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000740s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.017592s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000685s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:42:51+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002340s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006257s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000617s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:43:27+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012924s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.006472s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:17+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005703s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000643s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:22+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000710s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.006262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002652s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000721s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:22+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013059s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000682s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:29+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000899s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.015199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002863s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000822s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:29+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000887s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.026303s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000649s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:39+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.013140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002406s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000810s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:39+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000571s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:41+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013595s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000666s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:51:41+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012642s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000729s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:52:01+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.013575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002230s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.001470s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:52:02+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003200s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000501s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:52:05+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008506s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007143s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000541s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:52:07+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.013207s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000741s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:52:08+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013464s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.001048s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:52:19+08:00 ] ::1 ::1 POST /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000759s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013530s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:53:35+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011629s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007105s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000763s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:54:00+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013359s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000735s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:54:07+08:00 ] ::1 ::1 POST /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002052s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`username` , `sid` , `update_time` , `create_time`) VALUES ('李昱' , '02130402' , 1505732047 , 1505732047) [ RunTime:0.006005s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000784s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:54:52+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008554s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007179s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000686s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:12+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013752s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000617s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:24+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013530s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000619s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:40+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014012s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.001377s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:45+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006823s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000604s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:46+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002258s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.002752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003477s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000802s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:46+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.036595s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000693s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:47+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000975s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.005758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.004340s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000742s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:47+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.009291s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000555s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:47+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012841s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000678s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:48+08:00 ] ::1 ::1 GET /public/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013061s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000688s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:48+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012607s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000733s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:50+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.031292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003013s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000813s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:50+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000736s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.037977s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000626s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:52+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003424s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.001891s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:55:52+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000753s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.030151s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000684s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:11+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000740s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012906s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000613s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:14+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012366s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000761s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:38+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.014184s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000735s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:39+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000791s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.004630s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000795s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:39+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000742s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.001951s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000864s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:44+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012859s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000752s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:46+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000862s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012811s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.008904s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000754s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:56:46+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000586s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:59:19+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.012329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.002417s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000752s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:59:19+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.037423s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000745s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:59:20+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009719s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.006116s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000609s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:59:21+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `campaign` [ RunTime:0.013149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.003970s ]
+[ sql ] [ SQL ] SELECT `campaign`.`id`,`campaign`.`username`,`campaign`.`gender`,`campaign`.`desc`,`campaign`.`position`,`campaign`.`vote`,`campaign`.`create_time`,`campaign`.`update_time`,Position.id AS Position__id,Position.position AS Position__position,Position.update_time AS Position__update_time,Position.create_time AS Position__create_time FROM `campaign` `campaign` INNER JOIN `position` `Position` ON `campaign`.`position`=`Position`.`id` [ RunTime:0.000767s ]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:59:21+08:00 ] ::1 ::1 GET /public/admin/position/getposition.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:dbname=yanvote;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.035675s ]
+[ sql ] [ SQL ] SELECT * FROM `position` [ RunTime:0.000732s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,74 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+                <legend>学生会投票结果</legend>
+            </fieldset>
+            <!--<table class="layui-table" lay-data="{height:313, url:'/demo/table/user/'}">-->
+            <table class="layui-table" id="vote1">
+                <thead>
+                <tr>
+                    <th lay-data="{field:'position', width:80, sort: true}">竞选职位</th>
+                    <th lay-data="{field:'username', width:80}">候选人姓名</th>
+                    <th lay-data="{field:'gender', width:80, sort: true}">性别</th>
+                    <th lay-data="{field:'vote', width:80, sort: true}">票数</th>
+                    <th>详情</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                {volist name="campaign" id="vo"}
+                    <tr>
+                        <td>{$vo.position.position}</td>
+                        <td>{$vo.username}</td>
+                        <td>{$vo.gender}</td>
+                        <td>{$vo.vote}</td>
+                        <td><a style="color: -webkit-link;cursor: auto;text-decoration: underline;" href="{:url('campaign/record')}?campaign_id={$vo.id}">查看记录</a></td>
+                    </tr>
+                {/volist}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+    <!--包含footer文件-->
+    {include file="public/footer" /}
+</div>
+
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+
+    layui.use('table', function(){
+        var table = layui.table;
+
+//        //转换静态表格
+//        table.init('vote1', {
+//            //设置高度
+//            //支持所有基础参数
+//        });
+//
+//        table.init('vote2', {
+//            //设置高度
+//            //支持所有基础参数
+//        });
+//        table.render({ //其它参数在此省略
+//            elem: '#demo',
+//            count: 1,
+//            data: [{'id':1,'username':'李昱','gender':'男','vote':50}]//赋值数据
+//            ,page: false //开启分页
+//        });
+
+    });
+
+</script>
+</body>
+</html>

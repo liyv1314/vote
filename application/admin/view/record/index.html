@@ -1,0 +1,86 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+                <legend>投票记录</legend>
+            </fieldset>
+            <table class="layui-table" id="candidate">
+                <thead>
+                <tr>
+                    <th lay-data="{width:80}">ID</th>
+                    <th lay-data="{width:80}">投票人姓名</th>
+                    <th lay-data="{width:80}">竞选人姓名</th>
+                    <th lay-data="{width:80}">竞选职位</th>
+
+                </tr>
+                </thead>
+
+                <tbody>
+                {volist name="record" id="vo"}
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td>{$vo.user.username}</td>
+                    <td>{$vo.campaign.username}</td>
+                    <td>{$vo.campaign.position.position}</td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+            {$page}
+
+        </div>
+    </div>
+
+    <script>
+
+        $(function() {
+            $.ajax({
+                url: "{:url('position/getPosition')}",
+                success: function (data) {
+                    //alert(JSON.stringify(data));
+
+                    var temp = JSON.parse(data);
+
+//                    alert(temp.errcode);
+//                    alert(temp.data[0]['id']);
+//                    alert(temp.data[0]['position']);
+
+                    var str = "<option value='0'>请选择</option>";
+                    for(var i in temp.data) {
+                        str += "<option value='" + temp.data[i]['id'] + "'>" + temp.data[i]['position'] + "</option>";
+                    }
+                    $("#position").html(str);
+
+
+                    //Demo
+                    layui.use('form', function(){
+                        var form = layui.form;
+
+                        //监听提交
+                        form.on('submit(formDemo)', function(data){
+//                layer.msg(JSON.stringify(data.field));
+//                return false;
+                        });
+                    });
+                }
+
+            })
+        })
+    </script>
+
+    <!--包含footer文件-->
+    {include file="public/footer" /}
+</div>
+
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+    });
+</script>
+</body>
+</html>

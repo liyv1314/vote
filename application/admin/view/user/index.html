@@ -1,0 +1,88 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+                <legend>添加投票用户</legend>
+            </fieldset>
+
+
+            <form class="layui-form" action="" method="post">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">姓名</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="username" required  lay-verify="required" placeholder="请输入投票人姓名" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label">学号</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="sid" required  lay-verify="required" placeholder="请输入投票人学号" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+
+
+
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+                <legend>投票用户列表</legend>
+            </fieldset>
+            <table class="layui-table" id="voteuser">
+                <thead>
+                <tr>
+                    <th lay-data="{field:'id', width:80}">ID</th>
+                    <th lay-data="{field:'username', width:80}">投票用户姓名</th>
+                    <th lay-data="{field:'sid', width:80}">投票用户学号</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                {volist name="user" id="vo"}
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.sid}</td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+
+    <script>
+        //Demo
+        layui.use('form', function(){
+            var form = layui.form;
+
+            //监听提交
+            form.on('submit(formDemo)', function(data){
+//                layer.msg(JSON.stringify(data.field));
+//                return false;
+            });
+        });
+    </script>
+
+    <!--包含footer文件-->
+    {include file="public/footer" /}
+</div>
+
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+</script>
+</body>
+</html>

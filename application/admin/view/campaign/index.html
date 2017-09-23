@@ -1,0 +1,133 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+                <legend>添加候选人</legend>
+            </fieldset>
+
+
+            <form class="layui-form" method="post" action="">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">姓名</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="username" required  lay-verify="required" placeholder="请输入候选人姓名" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">竞选职位</label>
+                    <div class="layui-input-block">
+                        <select name="position_id" lay-verify="required" id="position">
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">单选框</label>
+                    <div class="layui-input-block">
+                        <input type="radio" name="gender" value="男" title="男" checked>
+                        <input type="radio" name="gender" value="女" title="女">
+                    </div>
+                </div>
+                <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label">简介</label>
+                    <div class="layui-input-block">
+                        <textarea name="desc" placeholder="请输入简介" class="layui-textarea"></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+
+
+
+            <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+                <legend>候选人列表</legend>
+            </fieldset>
+            <table class="layui-table" id="candidate">
+                <thead>
+                <tr>
+                    <th lay-data="{field:'id', width:80}">ID</th>
+                    <th lay-data="{field:'username', width:80}">候选人姓名</th>
+                    <th lay-data="{field:'gender', width:80}">性别</th>
+                    <th lay-data="{field:'desc', width:80}">简介</th>
+                    <th lay-data="{field:'position', width:80}">竞选职位</th>
+                    <th>详情</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                {volist name="campaign" id="vo"}
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.gender}</td>
+                    <td>{$vo.desc}</td>
+                    <td>{$vo.position.position}</td>
+                    <td>查看记录</td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+
+    <script>
+
+        $(function() {
+            $.ajax({
+                url: "{:url('position/getPosition')}",
+                success: function (data) {
+                    //alert(JSON.stringify(data));
+
+                    var temp = JSON.parse(data);
+
+//                    alert(temp.errcode);
+//                    alert(temp.data[0]['id']);
+//                    alert(temp.data[0]['position']);
+
+                    var str = "<option value='0'>请选择</option>";
+                    for(var i in temp.data) {
+                        str += "<option value='" + temp.data[i]['id'] + "'>" + temp.data[i]['position'] + "</option>";
+                    }
+                    $("#position").html(str);
+
+
+                    //Demo
+                    layui.use('form', function(){
+                        var form = layui.form;
+
+                        //监听提交
+                        form.on('submit(formDemo)', function(data){
+//                layer.msg(JSON.stringify(data.field));
+//                return false;
+                        });
+                    });
+                }
+
+            })
+        })
+    </script>
+
+    <!--包含footer文件-->
+    {include file="public/footer" /}
+</div>
+
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>layout 后台大布局 - Layui</title>
+    <link rel="stylesheet" href="__STATIC__/admin/layui/css/layui.css">
+    <link rel="stylesheet" href="__STATIC__/admin/layui/css/modules/code.css">
+    <script src="__STATIC__/admin/layui/layui.js"></script>
+    <script src="__STATIC__/admin/jquery-3.2.1.min.js"></script>
+    <style>
+        /*分页样式*/
+        .pagination{text-align:center;margin-top:20px;margin-bottom: 20px;}
+        .pagination li{margin:0px 10px; border:1px solid #e6e6e6;padding: 3px 8px;display: inline-block;}
+        .pagination .active{background-color: #46A3FF;color: #fff;}
+        .pagination .disabled{color:#aaa;}
+    </style>
+</head>
+<body>
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">投票管理系统</div>
+
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505717657040&di=e65c43710669c813250d754e2451234b&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201312%2F05%2F20131205172424_FQzWK.thumb.224_0.jpeg" class="layui-nav-img">
+                    admin
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">基本资料</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a href="{:url('login/logout')}">退出</a></li>
+        </ul>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+                <li class="layui-nav-item"><a href="{:url('index/index')}">概览</a></li>
+                <li class="layui-nav-item"><a href="{:url('campaign/index')}">候选人</a></li>
+                <li class="layui-nav-item"><a href="{:url('position/index')}">职位</a></li>
+                <li class="layui-nav-item"><a href="{:url('record/index')}">投票记录</a></li>
+                <li class="layui-nav-item"><a href="{:url('user/index')}">投票用户</a></li>
+            </ul>
+        </div>
+    </div>

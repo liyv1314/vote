@@ -1,0 +1,236 @@
+[ 2017-09-19T10:49:55+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]未定义变量: user[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:39]
+
+---------------------------------------------------------------
+[ 2017-09-19T10:54:03+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]未定义变量: user[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:39]
+
+---------------------------------------------------------------
+[ 2017-09-19T10:55:26+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:46]
+
+---------------------------------------------------------------
+[ 2017-09-19T11:46:32+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: user[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:119]
+
+---------------------------------------------------------------
+[ 2017-09-19T12:20:03+08:00 ] ::1 ::1 POST /public/index/index/vote.html
+[ error ] [1]Call to undefined function app\index\controller\getMessage()[/Applications/MAMP/htdocs/yanvote/application/index/controller/Index.php:46]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:03:10+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [0]类的属性不存在:app\common\model\User->choosed[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:03:36+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [0]类的属性不存在:app\common\model\User->choosed[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:04:04+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [0]类的属性不存在:app\common\model\User->choosed[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:04:53+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [0]类的属性不存在:app\common\model\User->choosed[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:13+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:16+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:26+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:28+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:28+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:46+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:48+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:49+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:49+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:49+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:50+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:50+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:50+08:00 ] ::1 ::1 POST /public/index/user/logincheck.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/User.php:47]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:05:55+08:00 ] ::1 ::1 GET /public/index/index
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/Index.php:21]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:06:25+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/Connection.php:362]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:12:06+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: campaign_disable[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:90]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:13:15+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: campaign_disable[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:90]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:13:17+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: campaign_disable[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:90]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:37:24+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [0]类的属性不存在:app\common\model\Campaign->positon[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:40:49+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [0]类的属性不存在:app\common\model\Campaign->positon[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:40:52+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [0]类的属性不存在:app\common\model\Campaign->positon[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:424]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:47:31+08:00 ] ::1 ::1 POST /public/index/index/vote.html
+[ error ] [2]unlink(宣传委员): No such file or directory[/Applications/MAMP/htdocs/yanvote/application/index/controller/Index.php:41]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:54:43+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]Trying to get property of non-object[/Applications/MAMP/htdocs/yanvote/application/index/controller/Index.php:22]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:56:08+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T16:58:06+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:00:09+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:01:03+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:01:05+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:01:14+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:01:39+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:01:41+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:01:54+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:02:39+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:03:57+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:05:10+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html
+[ error ] [0]数据表字段不存在:[position][/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/Builder.php:95]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:06:28+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html
+[ error ] [0]数据表字段不存在:[position][/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/Builder.php:95]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:07:00+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:07:05+08:00 ] ::1 ::1 GET /public/index/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/1fc98d34f0ecbaa9df4cf0c6ec9fee23.php:114]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:43:23+08:00 ] ::1 ::1 GET /public/admin/index/index.html
+[ error ] [1]Call to undefined method app\admin\controller\Index::getLoginUser()[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Index.php:10]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:44:10+08:00 ] ::1 ::1 GET /public/admin/index/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$account[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Index.php:29]
+
+---------------------------------------------------------------
+[ 2017-09-19T17:45:49+08:00 ] ::1 ::1 GET /public/admin/index/index.html
+[ error ] [8]未定义变量: vo[/Applications/MAMP/htdocs/yanvote/runtime/temp/cc513f7c4acad89f5286700124b3caad.php:68]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:18:16+08:00 ] ::1 ::1 GET /public/admin/campaign/record.html
+[ error ] [8]未定义数组索引: campaign_id[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Campaign.php:38]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:18:59+08:00 ] ::1 ::1 GET /public/admin/campaign/record.html
+[ error ] [8]未定义数组索引: campaign_id[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Campaign.php:38]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:19:17+08:00 ] ::1 ::1 GET /public/admin/campaign/record.html?campaign=1
+[ error ] [8]未定义数组索引: campaign_id[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Campaign.php:38]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:23:49+08:00 ] ::1 ::1 GET /public/admin/campaign/record.html?campaign=1
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id,campaign.record.user_id AS campaign__record.user_id,campaign.record.campaign' at line 1[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/Connection.php:362]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:25:35+08:00 ] ::1 ::1 GET /public/admin/campaign/record.html?campaign=1
+[ error ] [8]未定义数组索引: campaign_id[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Campaign.php:38]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:26:55+08:00 ] ::1 ::1 GET /public/admin/campaign/record.html?campaign=1
+[ error ] [8]未定义数组索引: campaign_id[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Campaign.php:40]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:34:29+08:00 ] ::1 ::1 GET /public/admin/record/index
+[ error ] [0]method not exist:think\db\Query->Position[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/Query.php:91]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:40:12+08:00 ] ::1 ::1 GET /public/admin/record
+[ error ] [0]模板文件不存在:/Applications/MAMP/htdocs/yanvote/public/../application/admin/view/record/index.html[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-09-19T18:40:19+08:00 ] ::1 ::1 GET /public/admin/record/index
+[ error ] [0]模板文件不存在:/Applications/MAMP/htdocs/yanvote/public/../application/admin/view/record/index.html[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------

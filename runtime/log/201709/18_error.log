@@ -1,0 +1,92 @@
+[ 2017-09-18T15:00:34+08:00 ] ::1 ::1 GET /public/index.php/admin/position.html
+[ error ] [0]模板文件不存在:/Applications/MAMP/htdocs/yanvote/public/../application/admin/view/position/index.html[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-09-18T15:31:02+08:00 ] ::1 ::1 GET /public/admin
+[ error ] [1]Call to a member function fetch() on null[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Controller.php:108]
+
+---------------------------------------------------------------
+[ 2017-09-18T15:35:29+08:00 ] ::1 ::1 GET /public/admin
+[ error ] [1]Call to a member function fetch() on null[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Controller.php:108]
+
+---------------------------------------------------------------
+[ 2017-09-18T15:39:11+08:00 ] ::1 ::1 GET /public/admin/index/index.html
+[ error ] [4]语法错误: unexpected '$this' (T_VARIABLE)[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Base.php:11]
+
+---------------------------------------------------------------
+[ 2017-09-18T15:51:39+08:00 ] ::1 ::1 POST /public/admin/login/index.html?account=admin&password=admin
+[ error ] [8]未定义数组索引: username[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Login.php:10]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:21:51+08:00 ] ::1 ::1 POST /public/admin/position/index.html?position=%E7%BB%84%E7%BB%87%E5%A7%94%E5%91%98
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yanvote.position' doesn't exist[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/connector/Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:27:40+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ error ] [8]未定义数组索引: id[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Collection.php:309]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:29:23+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ error ] [8]未定义数组索引: id[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Collection.php:309]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:31:28+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ error ] [8]未定义数组索引: id[/Applications/MAMP/htdocs/yanvote/runtime/temp/19496bd2fd271331441fcb72aa02b879.php:90]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:35:34+08:00 ] ::1 ::1 GET /public/admin/position/index.html
+[ error ] [8]未定义数组索引: position[/Applications/MAMP/htdocs/yanvote/runtime/temp/19496bd2fd271331441fcb72aa02b879.php:91]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:43:53+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [0]类不存在:app\common\model\Campaign[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-09-18T16:49:46+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html?name=111&city=0&gender=%E7%94%B7&desc=111
+[ error ] [1]Call to a member function save() on null[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Campaign.php:21]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:02:05+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ error ] [1]Call to a member function toArray() on array[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Position.php:35]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:05:43+08:00 ] ::1 ::1 GET /public/admin/position/getPosition
+[ error ] [1]Call to a member function toArray() on array[/Applications/MAMP/htdocs/yanvote/application/admin/controller/Position.php:35]
+
+---------------------------------------------------------------
+[ 2017-09-18T17:54:42+08:00 ] ::1 ::1 POST /public/admin/campaign/index.html
+[ error ] [8]未定义变量: campaign[/Applications/MAMP/htdocs/yanvote/runtime/temp/ef3dce2021b124d46b6b3c056c25190a.php:109]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:07:03+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [8]Object of class app\common\model\Position could not be converted to int[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:297]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:07:23+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [8]Object of class app\common\model\Position could not be converted to int[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:297]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:09:40+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [8]Object of class app\common\model\Position could not be converted to int[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:297]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:18:49+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [8]Object of class app\common\model\Position could not be converted to int[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:297]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:18:55+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [8]Object of class app\common\model\Position could not be converted to int[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:297]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:21:08+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [0]method not exist:think\db\Query->all[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/Query.php:91]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:21:21+08:00 ] ::1 ::1 GET /public/admin/campaign/index.html
+[ error ] [8]Object of class app\common\model\Position could not be converted to int[/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/Model.php:297]
+
+---------------------------------------------------------------
+[ 2017-09-18T18:52:19+08:00 ] ::1 ::1 POST /public/admin/user/index.html
+[ error ] [0]数据表字段不存在:[name][/Applications/MAMP/htdocs/yanvote/thinkphp/library/think/db/Builder.php:95]
+
+---------------------------------------------------------------
